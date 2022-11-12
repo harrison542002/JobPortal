@@ -15,3 +15,4 @@
 - Logout user account
 - View Jobs
 - Post Jobs
+- Administrate user information
