@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+body{
+	font-family: 'Quicksand', sans-serif;
+}
+
+.content{
+    padding: 5%;
+}
+
+.icons{
+    padding: 2%;
+}
+
+.job-offer{
+    border-bottom: 1px solid #d1d1cf;
+}
+
+.job-lists{
+    border: 1px solid #d1d1cf;
+    min-height: 120vh;
+    overflow: auto;
+	overflow-y: scroll;
+	max-height: 130vh;
+}
+
+h4{
+	font-weight: inherit;
+}
+
+.login > p > a{
+	padding : 2.5%;
+	font-size: large;
+	background: #0d6efd;
+	color : white;
+	border-radius: 5%;
+}
+
+.login > p > a:hover{
+	background: #5391ed;
+	color : black;
+}
+
+
+.cn{
+    font-size: small;
+}
+
+.location{
+    color: #b4b4b4;
+    font-size: smaller;
+}
+
+.salary{
+    font-size: x-small;
+}
+
+.info{
+    padding: 2%;
+}
+
+.info > p{
+    margin-bottom: 0.3rem;
+}
+
+.job-link{
+	color:black;
+    text-decoration: none;
+    outline: none;
+    margin-right: 75%;
+}
+
+.job-link:hover{
+    text-decoration: underline;
+}
+
+.fa-bookmark{
+    margin: auto;
+}
+
+.fa-bookmark:hover{
+    color: blue;
+}
+
+.myjobs{
+    text-decoration: none;
+    color: none;
+    outline: none;
+}
+
+.cwrapper{
+    min-height: 25%;
+}
+
+.imageCon{
+	display: flex;
+	justify-content: center;
+}
+
+.findbtn{
+	display : flex;
+	justify-content : center;
+	margin-top: 5%;
+}

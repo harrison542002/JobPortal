@@ -1,0 +1,29 @@
+@import
+	url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap')
+	;
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+body{
+	font-family: 'Quicksand', sans-serif;
+}
+
+.title {
+	font-family: 'Playfair Display', serif;
+}
+
+.normal {
+	margin: 0 30%;
+}
+
+.btn-div {
+	margin: 0 30%;
+}
+
+@media screen and (max-width : 760px) {
+	.normal {
+		margin: 0;
+	}
+	.btn-div {
+		margin: 0;
+	}
+}

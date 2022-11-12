@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" 
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans 
+           http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+    <!-- this bean will be injected into the HibernateTitleRepositoryTests class -->
+    <bean id="jobsController" class="com.jobs.controller.JobsController">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+    <bean id="profileS" class="com.jobs.services.ProfileService">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+    <bean id="registerS" class="com.jobs.services.RegisterService">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+    <bean id="userS" class="com.jobs.services.UserProfileService">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+    <bean id="userServiceS" class="com.jobs.services.UserService">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+    <bean id="adminRepo" class="com.jobs.repository.AdminRepository">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+    <bean id="eduRepo" class="com.jobs.repository.EducationRepository">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+    <bean id="expRepo" class="com.jobs.repository.ExperienceRepository">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+    <bean id="loRepo" class="com.jobs.repository.LocationRepository">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+    <bean id="profilRepo" class="com.jobs.repository.ProfileRepository">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+    <bean id="regRepo" class="com.jobs.repository.RegisterRepository">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+    <bean id="mailSend" class="org.springframework.mail.javamail.JavaMailSender">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+</beans>

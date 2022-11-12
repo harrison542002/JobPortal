@@ -1,0 +1,68 @@
+@import
+	url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap')
+	;
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+body{
+	font-family: 'Quicksand', sans-serif;
+}
+
+.title {
+	font-family: 'Playfair Display', serif;
+}
+
+.normal {
+	margin: 0 30%;
+}
+
+.row {
+	margin: 0 29%;
+}
+
+.btn-div {
+	margin: 0 30%;
+}
+
+.form-select {
+	width: 25% !important;
+}
+
+textarea {
+	width: 40% !important;
+}
+
+.uploader {
+	width: 40% !important;
+	margin: 0 30% !important;
+}
+
+.profile {
+	margin: auto;
+	border-radius: 50% !important;
+}
+
+@media screen and (max-width : 760px) {
+	.row {
+		margin: 0;
+	}
+	.row>* {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.btn-div {
+		margin: 0;
+	}
+	.normal {
+		margin: 0;
+	}
+	.form-select {
+		width: 100% !important;
+	}
+	textarea {
+		width: 100% !important;
+	}
+	.uploader {
+		width: 100% !important;
+		margin: 0 !important;
+	}
+}

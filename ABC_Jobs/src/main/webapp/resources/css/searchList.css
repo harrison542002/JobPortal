@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+body{
+	font-family: 'Quicksand', sans-serif;
+}
+
+.img {
+	width: 150px;
+	height: 150px;
+	padding: 1%;
+	border-radius: 50%;
+}
+
+.people {
+	border: solid 0.5px rgb(239, 231, 231);
+}
+
+.searchList {
+	margin-top: 8%;
+}
+
+.no-found {
+	margin-bottom: 15%;
+}

@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+body{
+	font-family: 'Quicksand', sans-serif;
+}
+
+.footer {
+	background-color: rgb(81, 112, 233);
+}
+
+a:hover {
+	color: #ffc400;
+}
+
+.social-icon {
+	color: white;
+	margin: 0 1%;
+}
+
+.social-icon:hover {
+	color: #ffc400;
+}
+
+.follow {
+	color: rgb(223, 222, 222);
+}
+
+.copyright {
+	color: rgb(223, 222, 222);
+}
+
+.footer-link {
+	color: aliceblue;
+	text-decoration: none;
+	margin: 1.5% 0;
+	font-size: 1.1em;
+}
+
+.icon-group {
+	margin: 3% auto;
+}

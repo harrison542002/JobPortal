@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+body{
+	font-family: 'Quicksand', sans-serif;
+}
+
+.img{
+	border-radius: 50% !important;
+	width: 55px;
+	height: 55px;
+}
+
+.pimg{
+	border-radius: 50% !important;
+	width: 55px;
+	height: 55px;
+}
+
+.messagdb-msg{
+	font-size: smaller;
+}
+
+.messageBoard:hover{
+	background-color : #bbe3fa;
+}
+
+.mwrapper{
+	border-radius: 10px;
+	min-height: 75%;
+}
+
+
+.username{
+	font-size: 1.25em;
+	padding: 0;
+	margin: 0;
+}
+
+.content{
+	width: 55%;
+}
+
+.msg{
+	font-size: 0.9em;
+}
+
+.room{
+	min-height: 80vh;
+	max-height: 85vh;
+	position : relative;
+	border-radius: 10px;
+	
+}
+
+.chat{
+	overflow-y: scroll;
+	position : absolute;
+	height: 65vh;
+}
+
+.date{
+	text-align: center;
+	font-size: 1.2em;
+	color : gray;
+}
+
+.time{
+	margin-left: 10%;
+}
+
+.message-box{
+	width: 100%;
+	z-index : 2;
+	position: absolute;
+	bottom : 0;
+	background-color: #FBFBFB;
+}
+
+.icon{
+	margin-left: 50%;
+	margin-top: 20%;
+	font-size: 2em;
+}
+
+.box > input {
+	margin-top : 2%;
+	margin-left : 2%;
+	width : 75%;
+	height: 8vh;
+	border-color : #2321;
+	border-radius: 3px;
+}
+
+.send{
+	margin-left: 2%;
+	margin-top : 2%;
+	height : 75%;
+	border-color : #c0c0c0;
+}
+
+.start-chat{
+	margin-left: 2%;
+	margin-top : 2%;
+	height : 75%;
+	border-color : #c0c0c0;
+}
+
+hr{
+	padding: 0;
+	margin: 0;
+	color : #dbe2e8;
+}
+
+.messageBox{
+	height: 10vh;
+}
+
+.searchResult{
+	background-color: #f2f5f3;
+}
+
+.searchResult:hover{
+	background-color: #f5f0f9;
+}
+
+.profile{
+            width: 110px;
+            height: 110px;
+            padding: 1%;
+            border-radius: 50%;
+        }
