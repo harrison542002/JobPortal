@@ -5,7 +5,7 @@
 
 ------------------
 
-# Features to be Highlight 🌟
+# Features to be Highlighted 🌟
 
 - Messaging System with Web Socket
 - Bulk email invitation with Gmail
