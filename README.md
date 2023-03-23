@@ -1,6 +1,6 @@
 # JobPortal 👜
 
-- This porject created with Spring MVC framework where there are two modules for this portal, administrator and software developer.
+- This porject is created with Spring MVC framework where there are two modules for this portal, administrator and software developer.
 - The portal is also integrated with MySQL database and applied orm by using hibernate framework.
 
 ------------------
